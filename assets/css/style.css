@@ -155,7 +155,6 @@ h1, h2{
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
 }
 
 #center-about{
@@ -170,4 +169,37 @@ h1, h2{
     width: 33%;
     float: right;
     background-color: silver;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.left-about-heading{
+    width: 60%;
+    line-height: 20px;
+    margin: 0 auto;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.address{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#mama-afrika-container{
+    width:60%;
+    height:300px;
+    overflow:hidden;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#mama-afrika-bg{
+    background: url('../images/mama-afrika.jpg') no-repeat center center;
+    height: 100%;
+    width:100%
 }
