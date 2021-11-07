@@ -160,15 +160,13 @@ h1, h2{
 #center-about{
     padding-top: 30px;
     width: 33%;
-    margin: 0 auto;
-    background-color: green;
+    float:left;
 }
 
 #right-about{
     padding-top: 30px;
     width: 33%;
-    float: right;
-    background-color: silver;
+    float: left;
 }
 
 hr {
@@ -191,7 +189,7 @@ hr {
 }
 
 #mama-afrika-container{
-    width:60%;
+    width:100%;
     height:300px;
     overflow:hidden;
     margin: 0 auto;
@@ -200,6 +198,38 @@ hr {
 
 #mama-afrika-bg{
     background: url('../images/mama-afrika.jpg') no-repeat center center;
-    height: 100%;
-    width:100%
+    width: auto;
+    height:100%;
+}
+
+#freddie-container{
+    width: 100%;
+    height:300px;
+    overflow:hidden;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#freddie-bg{
+    background: url('../images/freddie.jpg') no-repeat center center;
+    width: auto;
+    height:100%;
+}
+
+#grace-container{
+    width:100%;
+    height:300px;
+    overflow:hidden;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#grace-bg{
+    background: url('../images/amazing-grace.jpg') no-repeat center center;
+    width: auto;
+    height:100%;
+}
+
+.grocer-heading{
+    text-align: center;
 }
