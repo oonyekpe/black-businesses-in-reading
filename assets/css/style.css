@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&display=swap');
+/* flex grid from Tania Rascia for small devcies */
+
+.column {
+    flex-basis: 100%;
+    padding: 15px;
+    margin: 5px 0;
+  }
+
+  /* end of flex grid mobile */
 
 * {
     margin: 0;
@@ -152,9 +161,23 @@ section{
 
 /* footer */
 
-footer{
+footer {
     background: #3a3a3a;
     color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px auto;
+    max-width: 50%;
+}
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: rgba(241, 109, 107, 0.7);
+    transform: rotate(-5deg) scale(1.25);
 }
 
 .social-networks{
@@ -261,3 +284,16 @@ hr {
 .grocer-heading{
     text-align: center;
 }
+
+/* flex grid from Tania Rascia for tablets and bigger */ 
+@media screen and (min-width: 800px) {
+    .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+    .column {
+      flex: 1;
+    }
+  }
+  /* end of flex grid from Tania Rascia for tablets and bigger */
