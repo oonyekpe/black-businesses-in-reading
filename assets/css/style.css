@@ -45,10 +45,27 @@ h1, h2{
 
 /* navigation links */
 
-#menu{
+#menu {
     font-size: 100%;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
+    line-height: 25px;
 }
+
+#logo {
+    line-height: 50px;
+}
+
+#menu,
+    #logo {
+        line-height: 75px;
+        font-size: 250%;
+        margin-left: 30px;
+    }
+
+    #menu {
+        font-size: 100%;
+        letter-spacing: 4px;
+    }
 
 #menu , #logo{
     line-height: 75px;
@@ -284,6 +301,29 @@ hr {
 .grocer-heading{
     text-align: center;
 }
+
+/* image wrapper to make images responsive in columns */
+.image-wrap {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.image-wrap img {
+    margin: auto;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+<div class="image-wrap">
+                        <img src="assets/images/amazing-grace.jpg" alt="Picture of Amazing Grace store">
+                    </div>
 
 /* flex grid from Tania Rascia for tablets and bigger */ 
 @media screen and (min-width: 800px) {
