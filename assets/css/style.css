@@ -1,13 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@300&display=swap');
-/* flex grid from Tania Rascia for small devcies */
-
-.column {
-    flex-basis: 100%;
-    padding: 15px;
-    margin: 5px 0;
-  }
-
-  /* end of flex grid mobile */
 
 * {
     margin: 0;
@@ -15,32 +6,41 @@
     border: none;
 }
 
-body{
-    font-family:Lato, sans-serif;
+body {
+    font-family: Lato, sans-serif;
     font-weight: 300;
     background: #3a3a3a;
     color: #FFFFFF;
 }
 
-p {
-    font-size: 22px;
-    line-height: 40px;
-    margin-top: 12px;
+.main-container {
+    color: #3a3a3a;
+    background: #FFFFFF;
+    clear: both;
+}
+
+section {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 /* headings and logos */
-h1, h2{
+h1,
+h2 {
     font-family: Bebas Neue, sans-serif;
     letter-spacing: 4px;
     color: #252525;
 }
 
-##logo{
+#logo {
+    font-size: 36px;
+    margin-left: 10px;
     float: left;
-    font-size: 250%;
-    margin-left: 30px;
     background: #3a3a3a;
     color: #FFFFFF;
+    line-height: 50px;
 }
 
 /* navigation links */
@@ -51,48 +51,29 @@ h1, h2{
     line-height: 25px;
 }
 
-#logo {
-    line-height: 50px;
-}
-
-#menu,
-    #logo {
-        line-height: 75px;
-        font-size: 250%;
-        margin-left: 30px;
-    }
-
-    #menu {
-        font-size: 100%;
-        letter-spacing: 4px;
-    }
-
-#menu , #logo{
-    line-height: 75px;
-}
-
-#menu li{
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: inherit;
+    height: 40px;
 }
 
-#menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+#menu a:hover {
+    border-bottom: 1px solid #FFFFFF;
 }
 
-.active{
-    border-bottom: 1px solid #3a3a3a;
+.active {
+    border-bottom: 1px solid #FFFFFF;
 }
 
 /* hero image */
 
-#hero-outer{
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -100,11 +81,12 @@ h1, h2{
     position: relative;
 }
 
-#cover-text, #cover-text h2{
+#cover-text,
+#cover-text h2 {
     color: #ffffff;
 }
 
-#hero-image{
+#hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/mural\ image.jpg') no-repeat center center;
@@ -116,35 +98,17 @@ h1, h2{
 }
 
 /* creates the level of zoom for the hero image */
-@keyframes hero-zoom{
-    from{
+@keyframes hero-zoom {
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.1);
     }
 }
 
-.main-container{
-    color: #3a3a3a;
-    background: #FFFFFF;
-    clear: both;
-}
-
-section{
-
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 15px;
-}
-
-.active {
-    border-bottom: 1px solid #FFFFFF;
-}
-
-
-
-#cover-text{
+#cover-text {
     font-size: 130%;
     font-family: Bebas Neue, sans-serif;
     letter-spacing: 4px;
@@ -158,22 +122,22 @@ section{
     background-color: rgba(241, 109, 107, 0.7);
 
     bottom: 30px;
-    right:150px;
+    right: 150px;
 
     position: absolute;
 }
 
-#paragraph{
+#paragraph {
     font-size: 18px;
     padding: 75px;
 
 
 }
 
-#caption{
+#caption {
     font-size: 16px;
     padding-left: 40px;
-    text-align: center; 
+    text-align: center;
 }
 
 /* footer */
@@ -187,55 +151,34 @@ footer {
     margin: 15px auto;
     max-width: 50%;
 }
-footer a{
+
+footer a {
     color: #FFFFFF;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     color: rgba(241, 109, 107, 0.7);
     transform: rotate(-5deg) scale(1.25);
 }
 
-.social-networks{
-    text-align: center;
+p {
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: 12px;
 }
 
-.social-networks > li {
-    display: inline;
+
+/* flex grid from Tania Rascia for small devcies */
+
+.column {
+    flex-basis: 100%;
+    padding: 15px;
+    margin: 5px 0;
 }
 
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
+/* end of flex grid mobile */
 
-}
-
-/* three column layout */
-
-#three-column-layout{
-    height: 600px;
-}
-
-#left-about{
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
-
-#center-about{
-    padding-top: 30px;
-    width: 33%;
-    float:left;
-}
-
-#right-about{
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-}
 
 hr {
     border-top: 1px solid #3a3a3a;
@@ -243,7 +186,7 @@ hr {
     margin: 5px 0;
 }
 
-.left-about-heading{
+.left-about-heading {
     width: 60%;
     line-height: 20px;
     margin: 0 auto;
@@ -251,55 +194,10 @@ hr {
     margin-bottom: 50px;
 }
 
-.address{
+.address {
     text-transform: uppercase;
     font-weight: bold;
-}
-
-#mama-afrika-container{
-    width:100%;
-    height:300px;
-    overflow:hidden;
-    margin: 0 auto;
-    padding-bottom: 30px;
-}
-
-#mama-afrika-bg{
-    background: url('../images/mama-afrika.jpg') no-repeat center center;
-    width: auto;
-    height:100%;
-}
-
-#freddie-container{
-    width: 100%;
-    height:300px;
-    overflow:hidden;
-    margin: 0 auto;
-    padding-bottom: 30px;
-}
-
-#freddie-bg{
-    background: url('../images/freddie.jpg') no-repeat center center;
-    width: auto;
-    height:100%;
-}
-
-#grace-container{
-    width:100%;
-    height:300px;
-    overflow:hidden;
-    margin: 0 auto;
-    padding-bottom: 30px;
-}
-
-#grace-bg{
-    background: url('../images/amazing-grace.jpg') no-repeat center center;
-    width: auto;
-    height:100%;
-}
-
-.grocer-heading{
-    text-align: center;
+    font-size: 16px;
 }
 
 /* image wrapper to make images responsive in columns */
@@ -320,88 +218,78 @@ hr {
     height: 100%;
 }
 
-/* Form */
 
-.form-section {
-    clear: left;
-    background: url(../images/contact-us.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
-
-.signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background: rgba(60, 60, 60, .6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-}
-
-.signup-form > h2{
-    color:#fafafa;
-    margin-bottom:20px;
-}
-
-.text-input{
-    background: transparent;
-    color: #fafafa;
+#mama-afrika-container {
     width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 
-.longer-text-input{
-    background: transparent;
-    color: #fafafa;
+#mama-afrika-bg {
+    background: url('../images/mama-afrika.jpg') no-repeat center center;
+    width: auto;
+    height: 100%;
+}
+
+#freddie-container {
     width: 100%;
-    height: 100px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 
-
-.text-input:hover{
-    border-color: #f16c6b;
+#freddie-bg {
+    background: url('../images/freddie.jpg') no-repeat center center;
+    width: auto;
+    height: 100%;
 }
 
-.join-button{
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+#grace-container {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#grace-bg {
+    background: url('../images/amazing-grace.jpg') no-repeat center center;
+    width: auto;
+    height: 100%;
+}
+
+.grocer-heading {
     text-align: center;
-    font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
-    display: block;
-    
 }
 
-.join-button:hover{
-    background-color:#fafafa;
-    color: #f16c6b;
-}
-
-
-
-<div class="image-wrap">
-                        <img src="assets/images/amazing-grace.jpg" alt="Picture of Amazing Grace store">
-                    </div>
-
-/* flex grid from Tania Rascia for tablets and bigger */ 
+/* tablets and larger styles */
 @media screen and (min-width: 800px) {
+    /* navigation links */
+
+    #menu,
+    #logo {
+        line-height: 75px;
+        font-size: 250%;
+        margin-left: 30px;
+    }
+
+    #menu {
+        font-size: 100%;
+        letter-spacing: 4px;
+    }
+    /* flex grid from Tania Rascia for tablets and bigger */
     .row {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: nowrap;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
+
     .column {
-      flex: 1;
+        flex: 1;
     }
-  }
-  /* end of flex grid from Tania Rascia for tablets and bigger */
+}
+
+/* end of flex grid from Tania Rascia for tablets and bigger */
