@@ -8,10 +8,11 @@
 Obiageli Onyekpe
 
 ## Project Overview
-- Include a picture of site that shows it in responsive states and links to deployed code: http://ami.responsivedesign.is/
+
 My  idea is to provide value to users by providing easy and direct access to household, personal care and food products ordinarily used and prevalent in black and ethnic minority communities. I decided to focus on the market in, Reading, UK, the town where I live.
 - [deployed website](https://oonyekpe.github.io/black-businesses-in-reading/)
 
+![image](https://user-images.githubusercontent.com/68662449/141666950-ceb4b895-f6e1-4718-b171-39d70513c9bf.png)
 
 
 ## UX
@@ -53,6 +54,26 @@ I created a Word document and saved it as a PDF as my [wireframe](https://github
 - The Footer has the dark background like the navigation so that it deliniated from the page content visually.
 
 ![image](https://user-images.githubusercontent.com/68662449/141666716-be515627-301d-4344-9280-18d0ba926cca.png)
+
+##### Home page
+- My home page has a striking hero image 
+- Home page has cover text explaining what the website is.
+- Home page has a brief history outlining black histor commerce in READING.
+
+![image](https://user-images.githubusercontent.com/68662449/141667027-57dd5216-d100-4d2d-908a-ad0c169cb389.png)
+
+##### Businesses page
+- Businesses page has three columns on desktop; and one column for better viewing on mobile devises.
+- This page has a real life image of each business, descriptions for each businesss, their address and website link where avaialable.
+
+![image](https://user-images.githubusercontent.com/68662449/141667084-ac1e7f23-d385-42dc-85f1-59ad1da8702b.png)
+
+
+##### Contact Us page
+- Contact Us page allows businesses to contact us via our website.
+- It has validation so that users can't send bad or incomplete information to website owner.
+
+![image](https://user-images.githubusercontent.com/68662449/141667127-8cc05e89-4f7c-4feb-924b-b6951dbd684f.png)
 
 
 #### Future Features
