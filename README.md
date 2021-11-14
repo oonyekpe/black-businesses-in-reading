@@ -1,7 +1,8 @@
 # BLACK BUSINESS IN READING
-*replace the **PROJECT NAME** header with your project's name*
-- Screenshot of logo/navigation of mobile deployed site
-- Include a link to deployed project with one line explanation of project
+
+
+![image](https://user-images.githubusercontent.com/68662449/141664010-09ae9c53-0d91-4bdc-881b-a67bd58e2bbf.png)
+
 
 ## Author
 Obiageli Onyekpe
@@ -9,7 +10,7 @@ Obiageli Onyekpe
 ## Project Overview
 - Include a picture of site that shows it in responsive states and links to deployed code: http://ami.responsivedesign.is/
 My  idea is to provide value to users by providing easy and direct access to household, personal care and food products ordinarily used and prevalent in black and ethnic minority communities. I decided to focus on the market in, Reading, UK, the town where I live.
-- Include a link to your deployed website
+- [deployed website](https://oonyekpe.github.io/black-businesses-in-reading/)
 
 
 
@@ -127,32 +128,57 @@ Another way to accessibility test you site is to try to click on the browser and
 
 
 ## Deployment
+My website is deployed to GitHub pages, these are the steps I took:
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
+1. Click on setting button in GitHub repository
 
-Enumerate steps and use screenshots to make the instructions are clear.
+![image](https://user-images.githubusercontent.com/68662449/141663801-49edebe2-2669-48f1-844e-603b1a90b251.png)
+
+2. Scroll down to "Page" on left handside of page, and click on it
+
+![image](https://user-images.githubusercontent.com/68662449/141663832-eb234481-2986-4c8e-b673-ec19518d4030.png)
+
+3. On "Page", go to the sources button and select "main"
+
+![image](https://user-images.githubusercontent.com/68662449/141663861-da2422d3-dabc-491e-b38c-ed1ac12b25b6.png)
+
+4. Click on "save" button
+
+![image](https://user-images.githubusercontent.com/68662449/141663877-6090ae96-26f5-43d3-8ee3-bd788619d15a.png)
+
+5. You should see a success message with your deployed url
+
+![image](https://user-images.githubusercontent.com/68662449/141663970-ca524b29-7ecf-4f43-b765-1cf4ba5c48e1.png)
 
 
-You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/9b06129195c64fada6783de9cfe82d60/) when writing up this section.
 
-
-Write out steps you would take and test them to deploy your code to GitHub Pages, include screenshots if you think they would make the process easier.
 
 ## Credits
 
-To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did. 
+
+
 
 ### Content
 
-Use bullet points to list out sites you copied text from and cross-reference where those show up on your site
+I got contents for my website by reading pages in the following links:
+1.	https://www.getreading.co.uk/news/reading-berkshire-news/truth-history-readings-black-community-20344840
+2.	https://www.readingmuseum.org.uk/blog/readings-early-black-history
+3.	https://londontheinside.com/black-owned-businesses-in-london/
+4.	https://www.goodfind.io/black-owned-sustainable-brands
+5.	https://www.getreading.co.uk/whats-on/shopping/meet-young-reading-fashion-designer-20854074
+6.	https://www.locallife.co.uk/c-r/the-cape-za-reading.asp
+7.	https://www.tripadvisor.co.uk/Restaurants-g186363-c1-Reading_Berkshire_England.html
+8.	https://www.google.co.uk/
+
+
 
 ### Media
 
-Make a list of sites you used images from. If you used several sites try to match up each image to the correct site. This includes attribution for icons if they came from font awesome or other sites, give them credit.
+All images were photographed by me with my phone camera, except for The black history mural at Reading Central Club [Get Reading](https://www.getreading.co.uk/news/reading-berkshire-news/truth-history-readings-black-community-20344840)
 
 ### Acknowledgments
 
-This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
-
-If you used a CodeInstitute Example project as a starting point. Make note of that here.
+- I used CodeInstitute's example project Love Running as a starting point. 
+- My mentor Malia helped me immensely especially with mark down. I couldn't have completed this write up without her attentive and personable approach and support which helped me immensely.
+- I used the flex grid from [Tania Rascia](https://codepen.io/taniarascia/pen/rOLEGe/).
 
