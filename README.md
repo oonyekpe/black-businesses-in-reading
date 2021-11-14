@@ -28,9 +28,7 @@ The footer icons rotate to the left and zoom in when hovered over, and change co
 
 ### Wireframes
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in a separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser. 
-
-Wireframes can be as simple as a picture of a drawing of how you envisioned laying out the information for you pages in desktop, tablet and mobile views. They are a roadmap and do not have to be 100% accurate of the final product.
+I created a Word document and saved it as a PDF as my [wireframe](https://github.com/oonyekpe/black-businesses-in-reading/blob/main/Project1-BlackBusinessInReading.pdf).
 
 ### Features
 
