@@ -39,15 +39,28 @@ I created a Word document and saved it as a PDF as my [wireframe](https://github
 
 ##### Navigation
 - Navigation allows users to go through the pages intuitively.
+- At the top left corner, is the website's name that acts as the home button too.
+- Navigation is visble on mobile devices below the website name.
+
+![image](https://user-images.githubusercontent.com/68662449/141666623-0778341b-f7b2-4b38-9e39-090959dd0651.png)
 
 
+![image](https://user-images.githubusercontent.com/68662449/141666490-c448d84b-6551-45fe-8cde-221c34ab478d.png)
+
+##### Footer
+
+- The Footer provides the user with social media links.
+- The Footer has the dark background like the navigation so that it deliniated from the page content visually.
+
+![image](https://user-images.githubusercontent.com/68662449/141666716-be515627-301d-4344-9280-18d0ba926cca.png)
 
 
 #### Future Features
 
-Use this section to discuss plans for additional features to be implemented in the future:
-
-If you end up not developing some features you hoped to implement, you can include those in this section.
+- Future features would be industry specific pages for lifestyle, grocers, education, restaurants and similar pages.
+- I would do a 404 page that would match the styles of my website.
+- I would have the Contact Us page send the website owner an email and send a thank you page to the user.
+- I would have a favicon to represent my website in the browser tab.
 
 
 ## Testing
