@@ -155,19 +155,30 @@ My website is deployed to GitHub pages, these are the steps I took:
 
 ## Credits
 
-To avoid plagiarism amd copyright infringement, you should mention any other projects, stackoverflow, videos, blogs, etc that you used to gather imagery or ideas for your code even if you used it as a starting point and modified things. Giving credit to other people's efforts and ideas that saved you time acknowledges the hard work others did. 
+
+
 
 ### Content
 
-Use bullet points to list out sites you copied text from and cross-reference where those show up on your site
+I got contents for my website by reading pages in the following links:
+1.	https://www.getreading.co.uk/news/reading-berkshire-news/truth-history-readings-black-community-20344840
+2.	https://www.readingmuseum.org.uk/blog/readings-early-black-history
+3.	https://londontheinside.com/black-owned-businesses-in-london/
+4.	https://www.goodfind.io/black-owned-sustainable-brands
+5.	https://www.getreading.co.uk/whats-on/shopping/meet-young-reading-fashion-designer-20854074
+6.	https://www.locallife.co.uk/c-r/the-cape-za-reading.asp
+7.	https://www.tripadvisor.co.uk/Restaurants-g186363-c1-Reading_Berkshire_England.html
+8.	https://www.google.co.uk/
+
+
 
 ### Media
 
-Make a list of sites you used images from. If you used several sites try to match up each image to the correct site. This includes attribution for icons if they came from font awesome or other sites, give them credit.
+All images were photographed by me with my phone camera, except for The black history mural at Reading Central Club [Get Reading](https://www.getreading.co.uk/news/reading-berkshire-news/truth-history-readings-black-community-20344840)
 
 ### Acknowledgments
 
-This is the section where you refer to code examples, mentors, blogs, stack overflow answers and videos that helped you accomplish your end project. Even if it's an idea that you updated you should note the site and why it was important to your completed project.
-
-If you used a CodeInstitute Example project as a starting point. Make note of that here.
+- I used CodeInstitute's example project Love Running as a starting point. 
+- My mentor Malia helped me immensely especially with mark down. I couldn't have completed this write up without her attentive and personable approach and support which helped me immensely.
+- I used the flex grid from [Tania Rascia](https://codepen.io/taniarascia/pen/rOLEGe/).
 
