@@ -1,5 +1,5 @@
 # BLACK BUSINESS IN READING
-*replace the **PROJECT NAME** header with your project's name*
+
 - Screenshot of logo/navigation of mobile deployed site
 - Include a link to deployed project with one line explanation of project
 
@@ -127,16 +127,29 @@ Another way to accessibility test you site is to try to click on the browser and
 
 
 ## Deployment
+My website is deployed to GitHub pages, these are the steps I took:
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages).
+1. Click on setting button in GitHub repository
 
-Enumerate steps and use screenshots to make the instructions are clear.
+![image](https://user-images.githubusercontent.com/68662449/141663801-49edebe2-2669-48f1-844e-603b1a90b251.png)
+
+2. Scroll down to "Page" on left handside of page, and click on it
+
+![image](https://user-images.githubusercontent.com/68662449/141663832-eb234481-2986-4c8e-b673-ec19518d4030.png)
+
+3. On "Page", go to the sources button and select "main"
+
+![image](https://user-images.githubusercontent.com/68662449/141663861-da2422d3-dabc-491e-b38c-ed1ac12b25b6.png)
+
+4. Click on "save" button
+
+![image](https://user-images.githubusercontent.com/68662449/141663877-6090ae96-26f5-43d3-8ee3-bd788619d15a.png)
+
+5. You should see a success message with your deployed url
+
+![image](https://user-images.githubusercontent.com/68662449/141663895-04741e35-c585-4e9b-b105-1a4967eb6a94.png)
 
 
-You may want to re-watch the [initial deployment in gitpod video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/9b06129195c64fada6783de9cfe82d60/) when writing up this section.
-
-
-Write out steps you would take and test them to deploy your code to GitHub Pages, include screenshots if you think they would make the process easier.
 
 ## Credits
 
