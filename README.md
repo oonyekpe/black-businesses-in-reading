@@ -33,15 +33,15 @@ I created a Word document and saved it as a PDF as my [wireframe](https://github
 
 ### Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so and how they tie into  your user stories.
+
 
 #### Implemented Features
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+##### Navigation
+- Navigation allows users to go through the pages intuitively.
 
-It's easiest to break this section down into the header, footer, and each page/layer of your website. Call out any differences for mobile vs desktop presentations, include a screenshot of the implemented feature.
 
-Don't forget your 404 error page.
+
 
 #### Future Features
 
