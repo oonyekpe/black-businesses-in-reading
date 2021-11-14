@@ -1,7 +1,8 @@
 # BLACK BUSINESS IN READING
 
-- Screenshot of logo/navigation of mobile deployed site
-- Include a link to deployed project with one line explanation of project
+
+![image](https://user-images.githubusercontent.com/68662449/141664010-09ae9c53-0d91-4bdc-881b-a67bd58e2bbf.png)
+
 
 ## Author
 Obiageli Onyekpe
@@ -9,7 +10,7 @@ Obiageli Onyekpe
 ## Project Overview
 - Include a picture of site that shows it in responsive states and links to deployed code: http://ami.responsivedesign.is/
 My  idea is to provide value to users by providing easy and direct access to household, personal care and food products ordinarily used and prevalent in black and ethnic minority communities. I decided to focus on the market in, Reading, UK, the town where I live.
-- Include a link to your deployed website
+- [deployed website](https://oonyekpe.github.io/black-businesses-in-reading/)
 
 
 
@@ -147,7 +148,8 @@ My website is deployed to GitHub pages, these are the steps I took:
 
 5. You should see a success message with your deployed url
 
-![image](https://user-images.githubusercontent.com/68662449/141663895-04741e35-c585-4e9b-b105-1a4967eb6a94.png)
+![image](https://user-images.githubusercontent.com/68662449/141663970-ca524b29-7ecf-4f43-b765-1cf4ba5c48e1.png)
+
 
 
 
